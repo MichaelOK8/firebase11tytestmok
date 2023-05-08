@@ -1,0 +1,19 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "/users/mokeeffe/AppData/Roaming/npm/firebase deploy",
+    "start:dev": "eleventy --watch --serve",
+    "build": "eleventy",
+    "login": "/users/mokeeffe/AppData/Roaming/npm/firebase login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
